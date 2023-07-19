@@ -34,12 +34,33 @@ article {
 }
 
 /* Привет */
+.heading {
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+
+}
+
+.text {
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 40px 360px ;
+
+}
+
 .about{
     font-size: 48px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
     padding: 100px 40px 0px;
+
 }
 
 .developer {
