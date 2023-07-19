@@ -1,0 +1,114 @@
+body {
+    background-color:black ;
+    margin: 0px 80px
+}
+
+p {
+    font-family: sans-serif ;
+    color: #FFF;
+}
+
+html {
+    font-family: sans-serif;
+    color: #FFF;
+}
+
+.hat{
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 0px;
+}
+
+section {
+    display: flex;
+    flex-flow: row wrap;
+    flex-direction: row;
+}
+
+article {
+    border: 1px solid #fff;
+    padding: 0px;
+    margin: 0px;
+    flex: 50;
+}
+
+/* Привет */
+.about{
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 100px 40px 0px;
+}
+
+.developer {
+    color: gray;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+}
+
+/* Якоря в шапке сайта */
+.links {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    text-decoration:none;
+    color: white;
+}
+
+/* Выравнивание текста */
+.left {
+    text-align: left;
+} 
+.center {
+    text-align: center;
+}
+.right {
+    text-align: right;
+}
+.justify {
+    text-align: justify;
+}
+
+.anchorlink {
+    flex: 1 auto;
+    margin: 0px;
+    font-size: 14px;
+    line-height: 3;
+    padding: 10px; 
+    border: 0px solid;
+    background-color: transparent
+}
+
+.cv {
+    font-size: 14px;
+    padding: 5px 30px;
+    flex: 1 auto;
+    margin: 0px 5px 0px 40px;
+    line-height: 0.5;
+    border: 1px solid #27AE60;
+    background: var(--green-2, #27AE60);
+}
+
+.lm {
+    font-size: 14px;
+    padding: 5px 30px;
+    flex: 1 auto;
+    margin: 5px;
+    line-height: 0.5;
+    border: 1px solid #fff;
+    outline: none;
+    text-decoration: none;
+    background-color: transparent
+}
+
+.circle-image {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 500px;
+}
