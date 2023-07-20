@@ -1,15 +1,13 @@
 body {
     background-color:black ;
-    margin: 0px 80px
+    margin: 0px 80px;
+    font-family: sans-serif;
+    color: #FFF;
+    
 }
 
 p {
     font-family: sans-serif ;
-    color: #FFF;
-}
-
-html {
-    font-family: sans-serif;
     color: #FFF;
 }
 
@@ -22,15 +20,13 @@ html {
 
 section {
     display: flex;
-    flex-flow: row wrap;
-    flex-direction: row;
 }
 
 article {
-    border: 1px solid #fff;
+    flex: 50px;
+    border: 0px solid #fff;
     padding: 0px;
     margin: 0px;
-    flex: 50;
 }
 
 /* Привет */
@@ -97,8 +93,6 @@ article {
 }
 
 .anchorlink {
-    flex: 1 auto;
-    margin: 0px;
     font-size: 14px;
     line-height: 3;
     padding: 10px; 
@@ -109,17 +103,15 @@ article {
 .cv {
     font-size: 14px;
     padding: 5px 30px;
-    flex: 1 auto;
     margin: 0px 5px 0px 40px;
     line-height: 0.5;
-    border: 1px solid #27AE60;
+    border: 0px solid #27AE60;
     background: var(--green-2, #27AE60);
 }
 
 .lm {
     font-size: 14px;
     padding: 5px 30px;
-    flex: 1 auto;
     margin: 5px;
     line-height: 0.5;
     border: 1px solid #fff;
@@ -132,4 +124,21 @@ article {
     border-radius: 50%;
     overflow: hidden;
     width: 500px;
+}
+
+.make {
+    text-align: center;
+}
+
+.rectangle {
+    
+    margin: 40px;
+    display: inline-block;
+
+    width: 349px;
+	height: 241px;
+    background: #212121 ;
+}
+.greenlower {
+    border-bottom:solid #27AE60;
 }
