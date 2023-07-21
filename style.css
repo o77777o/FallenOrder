@@ -1,146 +1,187 @@
+html {
+    background-color: #171717;;
+}
+/* <!-- Если нет класса flex, то justify content не применим --> */
 body {
-    background-color:black ;
-    margin: 0px 80px;
+    color: white;
     font-family: sans-serif;
-    color: #FFF;
+    margin: 10px 80px 180px;
+    font-weight: 100;
     
 }
-
-p {
-    font-family: sans-serif ;
-    color: #FFF;
-}
-
-.hat{
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 0px;
-}
-
+/* 
 section {
-    display: flex;
+    border: 1px solid white;
+    
 }
 
 article {
-    flex: 50px;
-    border: 0px solid #fff;
+    border: 1px solid white;
+} */
+
+h1 {
     padding: 0px;
-    margin: 0px;
+    font-size: 30px;
+    font-weight: 500;
 }
 
-/* Привет */
-.heading {
+h2 {
+    padding: 0px;
     font-size: 48px;
-    font-style: normal;
     font-weight: 500;
-    line-height: normal;
-    text-align: center;
-
+    margin-bottom: 0px;
 }
 
-.text {
-    
-    color: #FFF;
-    text-align: center;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    margin: 40px 360px ;
-
-}
-
-.about{
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    padding: 100px 40px 0px;
-
-}
-
-.developer {
-    color: gray;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-
-}
-
-/* Якоря в шапке сайта */
-.links {
+p {
     font-size: 14px;
-    font-style: normal;
-    font-weight: 200;
-    line-height: normal;
+}
+
+a {
     text-decoration:none;
     color: white;
 }
 
-/* Выравнивание текста */
-.left {
-    text-align: left;
-} 
-.center {
-    text-align: center;
-}
-.right {
-    text-align: right;
-}
-.justify {
-    text-align: justify;
+.text72 {
+    font-size: 72px;
 }
 
-.anchorlink {
-    font-size: 14px;
-    line-height: 3;
-    padding: 10px; 
-    border: 0px solid;
-    background-color: transparent
+.text24 {
+    font-size: 24px;
 }
 
-.cv {
-    font-size: 14px;
-    padding: 5px 30px;
-    margin: 0px 5px 0px 40px;
+.weight600 {
+    font-weight: 600;
+}
+
+.weight500 {
+    font-weight: 500;
+}
+
+button {
+    color: white;
+    margin: 30px 5px 10px 0px;
+    padding: 5px 40px;
     line-height: 0.5;
-    border: 0px solid #27AE60;
-    background: var(--green-2, #27AE60);
+    border: 1px solid #27AE60;
+    background: #27AE60;
 }
 
-.lm {
-    font-size: 14px;
-    padding: 5px 30px;
-    margin: 5px;
-    line-height: 0.5;
+.white {
     border: 1px solid #fff;
-    outline: none;
-    text-decoration: none;
-    background-color: transparent
+    background: transparent
+}
+    
+.gray2 {
+    color: #4F4F4F;
 }
 
-.circle-image {
-    border-radius: 50%;
-    overflow: hidden;
-    width: 500px;
+.gray {
+    color: #828282;
 }
 
-.make {
+.green {
+    color: #27AE60;
+}
+
+.line-height {
+    line-height: 0; /*Нужно, чтобы убирать высоту линии текста */
+}
+
+.line-height15 {
+    line-height: 1.5;
+}
+
+.line-height05 {
+    line-height: 40px;
+}
+
+.padding-left {
+    padding: 300px 40px 0px
+}
+
+.padding-center {
+    padding: 0px 267px;
+}
+
+.padding-element {
+    padding: 0px 267px;
+}
+
+.padding-up {
+    padding: 40px 0px;
+}
+
+.padding-svg {
+    padding: 10px;
+}
+
+.padding-svg-down {
+    padding: 0px 0px 10px 0px;
+}
+
+.space-between {
+    justify-content: space-between; 
+}
+
+.space-around {
+    justify-content: space-around; 
+}
+
+.center {
+    justify-content: center; 
     text-align: center;
+    min-width: 500px;
 }
 
 .rectangle {
-    
-    margin: 40px;
+    padding: 30px 50px;
+    width: 350px; /* ширину */
+    height: 200px; /* высоту */
+    background-color: #212121; 
+    text-align: left ; 
+    line-height: 50px; /* Чтобы текст был посередине квадрата */
+    margin: 40px 30px 10px; 
+}
+
+.rectangle-skills {
+    width: 1310px;
+    height: 215px;  
+    background-color: #212121; 
+}
+
+.special-text {
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 1px;
+}
+
+.hidden-frame {
+    width: 172px; /* ширину */
+    height: 129px; /* высоту */
+    background-color: none; 
+    text-align: center ; 
+    line-height: 18px; /* Чтобы текст был посередине квадрата */
+    margin: 40px 0px 10px;
+}
+
+.green-border-buttom {
+    border-bottom:solid 5px #27AE60;
+}
+  
+.spacetext {
+    padding: 0px 20px 0px;
+}
+
+.flex {
+    display: flex;
+}
+
+.circle-image{
+    margin: 150px 30px 0px;
     display: inline-block;
-
-    width: 349px;
-	height: 241px;
-    background: #212121 ;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 600px;
+    height: 600px;
 }
-.greenlower {
-    border-bottom:10px solid #27AE60;
 
-}
