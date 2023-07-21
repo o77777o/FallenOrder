@@ -40,6 +40,7 @@ article {
 }
 
 .text {
+    
     color: #FFF;
     text-align: center;
     font-size: 18px;
@@ -140,5 +141,6 @@ article {
     background: #212121 ;
 }
 .greenlower {
-    border-bottom:solid #27AE60;
+    border-bottom:10px solid #27AE60;
+
 }
