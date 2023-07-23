@@ -1,187 +1,234 @@
 html {
-    background-color: #171717;
-    
+  background-color: #171717;
 }
-/* <!-- Если нет класса flex, то justify content не применим --> */
+
 body {
-    color: white;
-    font-family: sans-serif;
-    margin: 10px 80px 180px;
-    
-    
-}
-
-section {
-    border: 1px solid white;
-    
-}
-
-article {
-    border: 1px solid white;
-}
-
-h1 {
-    padding: 0px;
-    font-size: 30px;
-    font-weight: 500;
+  font-family: sans-serif;
+  color: white;
+  font-size: 1rem;
+  font-weight: 300;
+  margin: 2rem 2rem 15rem;
 }
 
 h2 {
-    padding: 0px;
-    font-size: 48px;
-    font-weight: 500;
-    margin-bottom: 0px;
+  font-size: 2.5rem;
 }
 
-p {
-    font-size: 14px;
+.p2 {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #535353;
 }
 
-a {
-    text-decoration:none;
-    color: white;
+.p3 {
+  line-height: 2.3rem;
+  font-size: 3rem;
+  font-weight: 600;
+  color: #535353;
 }
 
-.text72 {
-    font-size: 72px;
-}
-
-.text24 {
-    font-size: 24px;
-}
-
-.weight600 {
-    font-weight: 600;
-}
-
-.weight500 {
-    font-weight: 500;
-}
-
-button {
-    color: white;
-    margin: 30px 5px 10px 0px;
-    padding: 5px 40px;
-    line-height: 0.5;
-    border: 1px solid #27AE60;
-    background: #27AE60;
-}
-
-.white {
-    border: 1px solid #fff;
-    background: transparent
-}
-    
-.gray2 {
-    color: #4F4F4F;
-}
-
-.gray {
-    color: #828282;
-}
-
-.green {
-    color: #27AE60;
-}
-
-.line-height {
-    line-height: 0; /*Нужно, чтобы убирать высоту линии текста */
-}
-
-.line-height15 {
-    line-height: 1.5;
-}
-
-.line-height05 {
-    line-height: 40px;
-}
-
-.padding-left {
-    padding: 300px 40px 0px
-}
-
-.padding-center {
-    padding: 0px 267px;
-}
-
-.padding-element {
-    padding: 0px 267px;
-}
-
-.padding-up {
-    padding: 40px 0px;
+.p4 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #27AE60;
 }
 
 .padding-svg {
-    padding: 10px;
+  padding: 0.7rem;
 }
 
 .padding-svg-down {
-    padding: 0px 0px 10px 0px;
+  padding: 0rem 0rem 1rem 0rem;
 }
 
-.space-between {
-    justify-content: space-between; 
+.margin-section {
+  margin: 5rem 0rem 0rem 3rem;
 }
 
-.space-around {
-    justify-content: space-around; 
+.items-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.center {
-    justify-content: center; 
-    text-align: center;
-    min-width: 500px;
+.text-center {
+  text-align: center;
+}
+
+.text-rectangle {
+  width: 30rem;
+  height: 15rem;
+  background-color: transparent;
+}
+
+.hidden-rectange {
+  width: 18rem; /* ширину */
+  height: 9rem; /* высоту */
+  background-color: none; 
+  text-align: center ; 
 }
 
 .rectangle {
-    padding: 30px 50px;
-    width: 350px; /* ширину */
-    height: 200px; /* высоту */
-    background-color: #212121; 
-    text-align: left ; 
-    line-height: 50px; /* Чтобы текст был посередине квадрата */
-    margin: 40px 30px 10px; 
+  margin: 2rem;
+  width: 18rem; /* ширину */
+  height: 9rem; /* высоту */
+  background-color: #212121; 
+  text-align: left ; 
+  padding: 2rem;
 }
 
 .rectangle-skills {
-    width: 1310px;
-    height: 215px;  
-    background-color: #212121; 
-}
-
-.special-text {
-    font-size: 36px;
-    font-weight: 500;
-    line-height: 1px;
-}
-
-.hidden-frame {
-    width: 172px; /* ширину */
-    height: 129px; /* высоту */
-    background-color: none; 
-    text-align: center ; 
-    line-height: 18px; /* Чтобы текст был посередине квадрата */
-    margin: 40px 0px 10px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 90rem;
+  height: 14rem;  
+  background-color: #212121; 
 }
 
 .green-border-buttom {
-    border-bottom:solid 5px #27AE60;
-}
-  
-.spacetext {
-    padding: 0px 20px 0px;
+  border-bottom:solid 5px #27AE60;
 }
 
-.flex {
-    display: flex;
+section {
+  border: 1px solid white;
+}
+
+a {
+  text-decoration:none;
+  color: white;
+}
+
+.space-center {
+  padding: 3rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex: 10rem
+}
+
+.space-around {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex: 16rem
+}
+
+.space-between {
+  display: flex;
+  justify-content: space-between;
 }
 
 .circle-image{
-    margin: 120px;
-    border-radius: 50%;
-    overflow: hidden;
-    width: 40%;
-    height: 40%;
+  border-radius: 50%;
+  overflow: hidden;
+  width: 30%;
+  height: 30%;
 }
 
+.line-height {
+  line-height: normal;
+}
+
+.spacetext {
+  padding: 0.5rem 1rem 0rem;
+}
+
+.gray {
+  color: #828282;
+}
+
+button {
+  width: 10rem;
+  height: 3rem;
+  color: white;
+  margin: 1rem 0.5rem 0rem 0rem;
+  line-height: 0.5;
+  border: 1px solid #27AE60;
+  background: #27AE60;
+}
+
+.white-button {
+  border: 1px solid #fff;
+  background: transparent
+}
+
+.weight600 {
+  font-weight:600;
+}
+
+/* Медиа-запрос для мобильных устройств */
+@media screen and (max-width: 600px) {
+
+  body {
+    margin: 0.85rem 0.85rem 10rem; /* Изменяем отступы для мобильного макета */
+    font-size: 0.85rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .margin-section {
+    margin: 0rem;
+  }
+
+  button {
+    width: 6rem;
+    height: 3rem;
+
+  }
+
+  .rectangle {
+    padding: 1rem;
+    margin: 1rem;
+  }
+
+  .p2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #535353;
+  }
+  
+  .p3 {
+    line-height: 2rem;
+    font-size: 3rem;
+    font-weight: 600;
+    color: #535353;
+  }
+  
+  .p4 {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #27AE60;
+  }
+
+  .space-center {
+    padding: 0rem 0rem 6rem;
+
+  }
+
+  .hidden-rectange {
+    width: 15rem; /* ширину */
+    height: 7rem; /* высоту */
+
+  }
+
+  .circle-image{
+    border-radius: 50%;
+    width: 40%;
+    height: 40%;
+  }
+}
+
+
+
+
+
+
+
+/* Медиа-запрос для планшетов
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+
+} */
