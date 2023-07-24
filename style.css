@@ -205,13 +205,13 @@ button {
   }
 
   .space-center {
-    padding: 0rem 0rem 6rem;
+    padding: 1rem 0rem 3rem;
 
   }
 
   .hidden-rectange {
     width: 15rem; /* ширину */
-    height: 5rem; /* высоту */
+    height: 6rem; /* высоту */
 
   }
 
@@ -223,7 +223,7 @@ button {
 
   .text-rectangle {
     width: 30rem;
-    height: 12rem;
+    height: 10rem;
     background-color: transparent;
   }
 }
