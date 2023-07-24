@@ -7,7 +7,7 @@ body {
   color: white;
   font-size: 1rem;
   font-weight: 300;
-  margin: 2rem 2rem 15rem;
+  margin: 2rem 4rem 15rem;
 }
 
 h2 {
@@ -221,14 +221,3 @@ button {
     height: 40%;
   }
 }
-
-
-
-
-
-
-
-/* Медиа-запрос для планшетов
-@media screen and (min-width: 601px) and (max-width: 1024px) {
-
-} */
