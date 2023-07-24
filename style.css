@@ -171,7 +171,7 @@ button {
   }
 
   .margin-section {
-    margin: 0rem;
+    margin: 3rem 0rem 0rem;
   }
 
   button {
@@ -211,7 +211,7 @@ button {
 
   .hidden-rectange {
     width: 15rem; /* ширину */
-    height: 7rem; /* высоту */
+    height: 5rem; /* высоту */
 
   }
 
@@ -219,5 +219,11 @@ button {
     border-radius: 50%;
     width: 40%;
     height: 40%;
+  }
+
+  .text-rectangle {
+    width: 30rem;
+    height: 13rem;
+    background-color: transparent;
   }
 }
