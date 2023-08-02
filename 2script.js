@@ -1,8 +1,6 @@
-let age = prompt('Возраст?', 18);
-
-let message = (age < 3) ? 'Здравствуй, малыш!' :
-  (age < 18) ? 'Привет!' :
-  (age < 100) ? 'Здравствуйте!' :
-  'Какой необычный возраст!';
-
-alert( message );
+let NameOfJavaScript = prompt(`Какое другое название у JavaScript?`)
+if (NameOfJavaScript == `ECMAScript`) {
+    alert(`Верно!`)
+} else {
+  alert(`Не знаете? ECMAScript`)
+}
