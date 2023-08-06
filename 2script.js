@@ -1,21 +1,31 @@
-let login = prompt(`Кто ты?`) ;
-let message = (login=="Сотрудник") ? `Привет` : ?
+// let age = prompt ("сколько лет?") ;
+// let count = (14 <= +age && +age <= 90) ? "Welcome" : "Good bye" ;
+
+// alert (count)
+
+let age = prompt ("сколько лет?") ;
+let count = (14 >= +age && 90 >= +age) ? "Hello" : "Goodbye" ;
+
+alert (count)
+
+// let age = prompt ("сколько лет?") ;
+// let count = (!(14 <= +age && +age <= 90)) ? "Good Bye" : "Hello" ;
+
+// alert (count)
 
 
 
-if (login == 'Сотрудник') {
-  message = 'Привет';
-} else if (login == 'Директор') {
-  message = 'Здравствуйте';
-} else if (login == '') {
-  message = 'Нет логина';
-} else {
-  message = '';
-}
 
 
-alert(message)
 
+
+
+// let login = prompt(`Кто ты?`) ;
+// let message = (login== "Сотрудник") ? `Привет` :
+// (login== "Директор") ? "Здравствуйте" :
+// (login== "") ? "Нет логина" : "Введите корректное значение" ;
+
+// alert(message)
 
 // let a = prompt (`число А?`) ;
 // let b = prompt (`число В?`) ;
