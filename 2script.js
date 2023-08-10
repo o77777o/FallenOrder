@@ -1,22 +1,22 @@
-let login = prompt("Введите логин")
-let CorrectUserName = "Админ"
+let whoAreYou = prompt("Кто ты?");
 
-if (login==CorrectUserName) {
-    Password
-} else if (login==null) {
-    alert("Отменено")
+if (whoAreYou === null) {
+    alert("Отменено");
+} else if (whoAreYou === "Админ") {
+    let userPassword = prompt("Введите пароль");
+    
+    if (userPassword === null) {
+        alert("Отменено");
+    } else if (userPassword === "Я главный") {
+        alert("Здравствуйте!");
+    } else {
+        alert("Неверный пароль");
+    }
 } else {
-    alert("Я вас не знаю")
+    alert("Я вас не знаю");
 }
 
-alert (login)
 
-
-
-
-
-let Password = prompt("Введите пароль")
-let CorrectUserPassword = "Я главный"
 
 
 
