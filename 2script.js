@@ -1,26 +1,32 @@
-let whoAreYou = prompt("Кто ты?");
 
-if (whoAreYou === null) {
-    alert("Отменено");
-} else if (whoAreYou === "Админ") {
-    let userPassword = prompt("Введите пароль");
+
+
+
+
+
+
+
+
+
+
+
+// let whoAreYou = prompt("Кто ты?");
+
+// if (whoAreYou === null) {
+//     alert("Отменено");
+// } else if (whoAreYou === "Админ") {
+//     let userPassword = prompt("Введите пароль");
     
-    if (userPassword === null) {
-        alert("Отменено");
-    } else if (userPassword === "Я главный") {
-        alert("Здравствуйте!");
-    } else {
-        alert("Неверный пароль");
-    }
-} else {
-    alert("Я вас не знаю");
-}
-
-
-
-
-
-
+//     if (userPassword === null) {
+//         alert("Отменено");
+//     } else if (userPassword === "Я главный") {
+//         alert("Здравствуйте!");
+//     } else {
+//         alert("Неверный пароль");
+//     }
+// } else {
+//     alert("Я вас не знаю");
+// }
 
 
 
@@ -33,12 +39,6 @@ if (whoAreYou === null) {
 // if (Accses=="Отменено" || Accses=="Я вас не знаю") {
 //     alert (Accses)
 // }
-
-
-
-
-
-
 
 
 
