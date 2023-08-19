@@ -1,14 +1,21 @@
+let user = {
+  age: 30,
+};
 
+let key = "age";
+alert(key in user); // true, имя свойства было взято из переменной key
 
+alert(user.key)
 
+// let user = {
+//   name: "Babayka",
+//   age: 30,
+//   hobbie: "Pugat ludey",
+// };
 
+// let fer = prompt("Кашу ел?", "name" )
 
-
-
-
-
-
-
+// alert( user[fer] );
 
 // let whoAreYou = prompt("Кто ты?");
 
@@ -16,7 +23,7 @@
 //     alert("Отменено");
 // } else if (whoAreYou === "Админ") {
 //     let userPassword = prompt("Введите пароль");
-    
+
 //     if (userPassword === null) {
 //         alert("Отменено");
 //     } else if (userPassword === "Я главный") {
@@ -28,9 +35,6 @@
 //     alert("Я вас не знаю");
 // }
 
-
-
-
 // (CurrentUserName==null) ? "Отменено" : "Я вас не знаю" ;
 
 // let UserPassword = prompt("Введите пароль")
@@ -39,8 +43,6 @@
 // if (Accses=="Отменено" || Accses=="Я вас не знаю") {
 //     alert (Accses)
 // }
-
-
 
 // let hour = 12;
 // let isWeekend = true;
@@ -101,7 +103,6 @@
 // } else {
 //   alert(0)
 // }
-
 
 // let NameOfJavaScript = prompt(`Какое другое название у JavaScript?`)
 // if (NameOfJavaScript == `ECMAScript`) {
